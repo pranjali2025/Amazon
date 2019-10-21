@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "To Launch Browser and navigate to Amazon",
+        "description": "",
+        "id": "launch-amazon-browser;to-launch-browser-and-navigate-to-amazon",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4920671205,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": ": User launches Chrome Browser",
+            "match": {
+              "location": "Amazon.user_launches_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4950838855,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": ": User navigates to amazon url",
+            "match": {
+              "location": "Amazon.user_navigates_to_amazon_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1465588520,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": ": Amazon Website is launched",
+            "match": {
+              "location": "Amazon.amazon_Website_is_launched()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2339620448,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": ": User is able to see the Amazon site",
+            "match": {
+              "location": "Amazon.user_is_able_to_see_the_Amazon_site()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Launch Amazon Browser",
+    "description": "",
+    "id": "launch-amazon-browser",
+    "keyword": "Feature",
+    "uri": "feature/amazon.feature"
+  }
+]
